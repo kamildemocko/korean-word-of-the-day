@@ -1,0 +1,14 @@
+services:
+  korean-word-of-a-day:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: korean-word-of-a-day
+    networks:
+      - korean-word-of-a-day-net
+    env_file:
+      - .env
+
+networks:
+  korean-word-of-a-day-net:
+    external: true
