@@ -13,7 +13,7 @@ Korean Word of the Day is a Go application that scrapes a Korean dictionary webs
 ### Steps
 1. Clone the repository:
     ```sh
-    git clone <repository-url>
+    git clone https://github.com/kamildemocko/korean-word-of-the-day
     cd korean-word-of-the-day
     ```
 
